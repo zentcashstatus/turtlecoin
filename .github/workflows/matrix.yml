@@ -29,8 +29,8 @@ jobs:
             deployable: false
           - build_name: 'Ubuntu GCC 11'
             package_name: 'gcc-11 g++-11'
-            cc: gcc-8
-            cxx: g++-8
+            cc: gcc-11
+            cxx: g++-11
             label: linux
             deployable: true
           - build_name: 'aarch64'
